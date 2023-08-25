@@ -1,0 +1,56 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&display=swap');
+.dashboard {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+  
+  .user-info,
+  .game-info {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .leader-info h3,
+  .team-info h3,
+  .games-list h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .user-info ul,
+  .game-info ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .user-info ul li,
+  .game-info ul li {
+    margin-bottom: 5px;
+  }
+  
+  .team-info ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+  }
+  
+  .games-list p {
+    margin-top: 10px;
+  }
+  
+  /* Additional styles for responsiveness */
+  @media (max-width: 768px) {
+    .user-info,
+    .game-info {
+      padding: 10px;
+    }
+  }
+  

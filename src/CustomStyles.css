@@ -1,0 +1,148 @@
+/* Override Bootstrap styles and add custom styling */
+
+/* Dashboard */
+.dashboard {
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #080000;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+
+  }
+  .top-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10%;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 40px;
+  }
+  h1 {
+    font-family: 'League Spartan', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700,semibold;
+    letter-spacing: 2px;
+  }
+  .info-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px; /* You can adjust this width to your preference */
+  }
+  
+  /* Titles */
+  h1, h2, h3 {
+    color: #333;
+  }
+  h1 {
+    font-size: 120px;
+  }
+  
+  h2 {
+    font-family: 'League Spartan', sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+  }
+  
+  h3 {
+    font-size: 20px;
+  }
+  /* User and Game Info */
+  .user-info, .game-info {
+    flex: 0 0 calc(50% - 10px);
+    margin-top: 20px;
+    padding: 5px;
+    background-color: rgba(44, 38, 38, 0.635);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  /* Increase the box width of game info */
+.game-info {
+    width: 100%; /* Set the desired width */
+    max-width: 700px; /* Set the maximum width if needed */
+    /* ... existing styles ... */
+  }
+  
+  
+  .team-info {
+    margin-top: 20px;
+  }
+  
+  .games-list li:hover {
+    background-color: #f8f9fa; /* Change to your preferred hover color */
+    cursor: pointer;
+  }
+
+  .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+  }
+  
+  .card-text {
+    color: #666;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease-in-out;
+  }
+  /* List Items */
+  .user-info li, .game-info li {
+    margin-bottom: 10px;
+  }
+  
+  /* Leader Info */
+  .leader-info h3, .team-info h3, .games-list h3 {
+    margin-bottom: 15px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .user-info, .game-info {
+      padding: 10px;
+    }
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #000;
+    background-image: url('https://img.freepik.com/premium-photo/football-stadium-3d-rendering-soccer-stadium-with-crowded-field-arena_3544-1361.jpg?size=626&ext=jpg&uid=R94261940&ga=GA1.2.2024253405.1677091885&semt=ais'); /* Replace with your image path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+  
+  .App {
+    width: 100%;
+    max-width: 2000px; /* Adjust this value as needed */
+    
+  }
