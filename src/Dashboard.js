@@ -11,7 +11,7 @@ function Dashboard() {
         <GameProvider>
       <div className="container-fluid dashboard">
       <div className="top-banner">
-          <h1>Spardha'23</h1>
+          <h1 className="first_H1" style={{fontSize:"1.2em"}}>Spardha'23</h1>
         </div>
         <h1 className="mt-4">Admin Dashboard</h1>
         <div className="row">

@@ -1,6 +1,9 @@
 /* Override Bootstrap styles and add custom styling */
 
 /* Dashboard */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&display=swap');
+
 .dashboard {
     margin: 20px auto;
     padding: 10px;
@@ -18,12 +21,11 @@
     position: absolute;
     top: 0;
     left: 0;
-    height: 10%;
+    height: 12vh;
     width: 100%;
     background-color: #000;
     color: #fff;
     text-align: center;
-    padding: 5px 0;
     font-family: 'League Spartan', sans-serif;
     font-size: 40px;
   }
@@ -46,6 +48,7 @@
   }
   h1 {
     font-size: 120px;
+    font-family: 'Abril Fatface', cursive;
   }
   
   h2 {
@@ -62,7 +65,6 @@
     flex: 0 0 calc(50% - 10px);
     margin-top: 20px;
     padding: 5px;
-    background-color: rgba(44, 38, 38, 0.635);
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     font-family: 'Open Sans', sans-serif;
@@ -145,4 +147,7 @@
     width: 100%;
     max-width: 2000px; /* Adjust this value as needed */
     
+  }
+  h1 .mt-4{
+    font-family: 'Abril Fatface', cursive;
   }
